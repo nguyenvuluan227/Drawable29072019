@@ -2,10 +2,31 @@
 <selector
     android:autoMirrored="true"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:state_pressed="true"
-        android:drawable="@color/colorAccent">
 
+    <item
+        android:state_pressed="true" >
+        <shape
+            android:shape="rectangle">
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+            <corners
+                android:radius="50dp"/>
+            <solid
+                android:color="@color/colorAccent"/>
+        </shape>
     </item>
 
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+            <corners
+                android:radius="50dp"/>
+            <solid
+                android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
 </selector>
