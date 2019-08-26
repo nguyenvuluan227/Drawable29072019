@@ -9,7 +9,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
         <Button
             android:drawableTintMode="src_over"
             android:drawableLeft="@drawable/ic_facebook"
