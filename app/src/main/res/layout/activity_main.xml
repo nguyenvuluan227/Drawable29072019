@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <Button
+            android:drawableTintMode="src_over"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:id="@+id/buttonfb"
+            android:drawablePadding="5dp"
+            android:background="@drawable/background_button_shape"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textStyle="bold|normal"
+            android:textColor="#FFFFFF"
+            android:text="Sign up with facebook"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/buttonfb"
+            android:drawableTintMode="src_over"
+            android:drawableLeft="@drawable/ic_linkedin"
+            android:id="@+id/buttonlinked"
+            android:drawablePadding="5dp"
+            android:background="@drawable/background_button_linkedin"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textStyle="bold|normal"
+            android:textColor="#FFFFFF"
+            android:text="Sign up with linkedIn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/buttonlinked"
+            android:drawableTintMode="src_over"
+            android:drawableLeft="@drawable/ic_google_symbol"
+            android:id="@+id/buttongoogle"
+            android:drawablePadding="5dp"
+            android:background="@drawable/background_google"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textStyle="bold|normal"
+            android:textColor="#FFFFFF"
+            android:text="Sign up with google"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+
+            android:layout_below="@id/buttongoogle"
+            android:drawableTintMode="src_over"
+            android:drawableLeft="@drawable/ic_instagram"
+            android:id="@+id/buttoninstagram"
+            android:drawablePadding="5dp"
+            android:background="@drawable/backgound_button_instagram"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textStyle="bold|normal"
+            android:textColor="#FFFFFF"
+            android:text="Sign up with Instagram"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>
